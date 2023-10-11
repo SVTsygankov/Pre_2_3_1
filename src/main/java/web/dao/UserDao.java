@@ -5,10 +5,14 @@ import java.util.List;
 
 public interface UserDao {
 
-    public void addUser(User user);
-    public void deleteUser(long id);
-    public void updateUser(User user);
-    public User getUser(long id);
-    public List<User> getAllUsers();
+    void addUser(User user);
+
+    void deleteUser(long id);
+
+    void updateUser(User user);
+
+    User getUser(long id);
+
+    List<User> getAllUsers();
 
 }

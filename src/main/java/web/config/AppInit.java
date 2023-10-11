@@ -4,7 +4,6 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import javax.servlet.FilterRegistration;
-import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
@@ -22,7 +21,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
                 WebConfig.class
         };
     }
-
 
     // Данный метод указывает url, на котором будет базироваться приложение */
     @Override
